@@ -54,6 +54,14 @@ folder_names_and_paths["audio_encoders"] = ([os.path.join(models_dir, "audio_enc
 
 folder_names_and_paths["frame_interpolation"] = ([os.path.join(models_dir, "frame_interpolation")], supported_pt_extensions)
 
+# Depth estimation models (Depth Anything 3, MiDaS, ZoeDepth, etc). Falls back
+# to ``models/diffusion_models`` to keep existing installations working.
+folder_names_and_paths["depth_estimation"] = (
+    [os.path.join(models_dir, "depth_estimation"),
+     os.path.join(models_dir, "diffusion_models")],
+    supported_pt_extensions,
+)
+
 output_directory = os.path.join(base_path, "output")
 temp_directory = os.path.join(base_path, "temp")
 input_directory = os.path.join(base_path, "input")
