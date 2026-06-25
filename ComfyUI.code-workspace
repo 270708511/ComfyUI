@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "ComfyUI",
+			"path": "."
+		},
+		{
+			"name": "ComfyUI_Server",
+			"path": "../ComfyUI_Server"
+		},
+		{
+			"name": "ComfyUI-Installs",
+			"path": "../../../ComfyUI-Installs"
+		},
+		{
+			"name": "ComfyUI-Shared",
+			"path": "../../../ComfyUI-Shared"
+		}
+	],
+	"settings": {
+		"python-envs.defaultEnvManager": "ms-python.python:system"
+	}
+}
